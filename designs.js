@@ -6,7 +6,7 @@ const tbl = document.querySelector("#pixelCanvas");
 
 // When size is submitted by the user, call makeGrid()
 
-makeGrid(10, 10);
+makeGrid(5, 5);
 
 sizepicker.addEventListener('submit', function (e) {
     e.preventDefault();
